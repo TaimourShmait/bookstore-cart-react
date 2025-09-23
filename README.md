@@ -1,69 +1,27 @@
-# React + TypeScript + Vite
+# PageTurner Bookstore
+A digital bookstore built with React and TypeScript. Demonstrates state management, component composition, and cart functionality with Bootstrap styling and search/filter features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+1. Clone this repository:  
+   `git clone https://github.com/YourUsername/pageturner-bookstore.git`
+2. Navigate into the project directory:  
+   `cd pageturner-bookstore`
+3. Install dependencies:  
+   `npm install`
+4. Start the development server:  
+   `npm run dev`
 
-Currently, two official plugins are available:
+## Features
+- **Browse books** with detailed information including title, author, genre, and pricing.
+- **Shopping cart functionality** with add, remove, and quantity management.
+- **Search and filter** books by title, author, or genre categories.
+- **Component-based architecture** demonstrating React props and state management.
+- **Responsive design** with Bootstrap styling for desktop and mobile views.
+- **Dynamic pricing calculations** with real-time cart totals and item counts.
+- **State management** showcasing complex array operations and derived state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Technologies Used
+- **React** with TypeScript for component-based UI
+- **Bootstrap** for responsive styling and components
+- **Vite** for fast development and building
+- **CSS** for custom component styling
