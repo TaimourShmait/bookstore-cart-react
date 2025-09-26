@@ -3,9 +3,9 @@ A digital bookstore built with React and TypeScript. Demonstrates state manageme
 
 ## Installation
 1. Clone this repository:  
-   `git clone https://github.com/YourUsername/pageturner-bookstore.git`
+   `git clone https://github.com/TaimourShmait/bookstore-cart-react.git`
 2. Navigate into the project directory:  
-   `cd pageturner-bookstore`
+   `cd bookstore-cart-react`
 3. Install dependencies:  
    `npm install`
 4. Start the development server:  
